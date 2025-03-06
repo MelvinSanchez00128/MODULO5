@@ -1,0 +1,14 @@
+package proyecformasmelvin;
+
+/**
+
+ */
+abstract class Formas {
+    private String color;
+
+    public void establecerColor(String color) {
+        this.color = color;
+    }
+
+    abstract void dibujar();
+}
