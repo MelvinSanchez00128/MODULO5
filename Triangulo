@@ -1,0 +1,20 @@
+package proyecformasmelvin;
+
+/**
+
+ */
+public class Triangulo {
+     private double angulo;
+
+    public Triangulo(double angulo) {
+        this.angulo = angulo;
+    }
+
+    public void calcularArea() {
+        System.out.println("Area del triangulo.");
+    }
+
+    public void dibujar() {
+        System.out.println("Triangulo.");
+    }
+}
